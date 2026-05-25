@@ -5,7 +5,7 @@ YARA detection rules for phishing campaigns, financial scam landers, and common 
 Rules are based on patterns observed while working in threat detection and from analysing public samples on MalwareBazaar and ANY.RUN.
 
 
-### Phishing
+### Phishing:
 
 **credential_harvesting.yar** - Generic credential harvesting pages with suspicious POST forms, and pages that prompt for passwords twice (common in 2FA interception kits).
 
@@ -23,7 +23,7 @@ Rules are based on patterns observed while working in threat detection and from 
 
 **banking_fintech_phish.yar** - Generic online banking phishing with anti-debugging, plus specific detection for Singapore banks (DBS, OCBC, UOB, POSB).
 
-### Malware
+### Malware:
 
 **agenttesla.yar** - Credential theft behaviour (browser password paths, SMTP exfiltration, keylogging APIs) and persistence mechanisms.
 
